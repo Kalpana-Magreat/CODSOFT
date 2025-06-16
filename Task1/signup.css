@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Georgia, 'Times New Roman', Times, serif";
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1673526759327-54f1f5b27322?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.login a{
+    background: linear-gradient(90deg, #dad5d5, #ac76e2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper{
+    width: 450px;
+    border: 2px solid white;
+    backdrop-filter: blur(25px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+    color: white;
+    border-radius: 2%;
+}
+
+.wrapper h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 6%;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6%;
+    
+}
+.n1{
+    
+    border: none;
+    outline: none;
+    background: transparent;
+    border-image: linear-gradient(90deg, #ffffff, #9636f9) 1;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    color: white;
+    width:50%;
+    height: 35px;
+    padding-left: 20px;
+    font-size: large;
+ 
+}
+.n1::placeholder{
+    color: white;
+}
+.n2{
+    
+    border: none;
+    outline: none;
+    background: transparent;
+    border-image: linear-gradient(90deg, #ffffff, #9636f9) 1;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    color: white;
+    width:50%;
+    height: 35px;
+    padding-left: 20px;
+    font-size: large;
+    margin-left: 10px ;
+}
+.n2::placeholder{
+    color: white;
+}
+
+.email input{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-image: linear-gradient(90deg, #ffffff, #9636f9) 1;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    color: white;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 6%;
+    padding-left: 20px;
+    font-size: large;
+}
+.email input::placeholder{
+    color: white;
+}
+
+.pass input{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-image: linear-gradient(90deg, #ffffff, #9636f9) 1;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    color: white;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 6%;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.pass input::placeholder{
+    color: white;
+}
+
+
+.wrapper form{
+    margin: 8%;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    border-radius: 3%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.btn button{
+    border: none;
+    outline: none;
+    background-color: white;
+    text-align: center;
+    color: #8137ca;
+    
+    width: 200px;
+    height: 35px;
+    margin: 4%;
+    font-size: large;
+    border-radius: 3%;
+}
+.btn button:hover{
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    width: 200px;
+    
+}
+.email i{
+    position: absolute;
+    right: 46px;
+    top: 40%;
+    font-size: 20px;
+}
+.confirm i{
+    position: absolute;
+    right: 46px;
+    top: 63%;
+    font-size: 20px;
+}
+.pass i{
+    position: absolute;
+    right: 46px;
+    top: 51.5%;
+    font-size: 20px;
+}
+
+.confirm input{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-image: linear-gradient(90deg, #ffffff, #9636f9) 1;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    color: white;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 6%;
+    padding-left: 20px;
+    font-size: large;
+}
+.confirm input::placeholder{
+    color: white;
+}
+#cb a{
+    background: linear-gradient(90deg, #dad5d5, #a65eee, white, #a65eee, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
